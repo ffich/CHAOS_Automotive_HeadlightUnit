@@ -1,0 +1,16 @@
+Conversion Warnings Log
+
+
+MSG_ID: 1280 	MSG_TYPE: S 	MSG_NAME: NM
+	SIG_NAME: HLU_Shutdown, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1025 	MSG_TYPE: S 	MSG_NAME: HLU_CMD
+	SIG_NAME: Lamp_Main_Cmd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Lamp_Brights_Cmd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: FMH_Config_Cmd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Blinker_Cmd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1024 	MSG_TYPE: S 	MSG_NAME: HLU_STS
+	SIG_NAME: Lamp_Sts, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: FMH_Config_Sts, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Blinker_Sts, STATUS: Invalid Max or Min value., ACTION: Value Set to default

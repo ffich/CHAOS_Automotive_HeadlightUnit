@@ -1,0 +1,359 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: can2}
+children:
+- type: Symbols
+  children:
+  - type: Boolean
+    attributes: {id: AUTO_NOMINAL_BIT_TIMING_CALCULATION}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Integer
+    attributes: {id: BRP}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: readOnly}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '10'}
+  - type: String
+    attributes: {id: CALCULATED_ERRORRATE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '0.000'}
+  - type: Integer
+    attributes: {id: CALCULATED_NOMINAL_BITRATE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '500'}
+  - type: Integer
+    attributes: {id: CAN2_FIFO0_SIZE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '10'}
+  - type: Integer
+    attributes: {id: CAN2_FIFO1_SIZE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '10'}
+  - type: Menu
+    attributes: {id: CAN2_FIFO2}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Integer
+    attributes: {id: CAN2_FIFO2_SIZE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '10'}
+  - type: Integer
+    attributes: {id: CAN2_FIFO3_SIZE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '4'}
+  - type: Boolean
+    attributes: {id: CAN2_FILTER0_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Hex
+    attributes: {id: CAN2_FILTER0_ID}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1025'}
+  - type: Integer
+    attributes: {id: CAN2_FILTER0_ID_DECIMAL}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '1025'}
+  - type: Menu
+    attributes: {id: CAN2_FILTER1}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+  - type: Boolean
+    attributes: {id: CAN2_FILTER1_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: KeyValueSet
+    attributes: {id: CAN2_FILTER1_FIFO_SELECT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: Hex
+    attributes: {id: CAN2_FILTER1_ID}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1280'}
+  - type: Integer
+    attributes: {id: CAN2_FILTER1_ID_DECIMAL}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '1280'}
+  - type: KeyValueSet
+    attributes: {id: CAN2_FILTER1_MASK_SELECT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '0'}
+  - type: Boolean
+    attributes: {id: CAN2_FILTER2_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: KeyValueSet
+    attributes: {id: CAN2_FILTER2_FIFO_SELECT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '3'}
+  - type: Hex
+    attributes: {id: CAN2_FILTER2_ID}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '417005474'}
+  - type: Integer
+    attributes: {id: CAN2_FILTER2_ID_DECIMAL}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '417005474'}
+  - type: KeyValueSet
+    attributes: {id: CAN2_FILTER2_MASK_SELECT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '0'}
+  - type: KeyValueSet
+    attributes: {id: CAN2_FILTER3_FIFO_SELECT}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '4'}
+  - type: Hex
+    attributes: {id: CAN2_FILTER3_ID}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '417005475'}
+  - type: Integer
+    attributes: {id: CAN2_FILTER3_ID_DECIMAL}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '417005475'}
+  - type: Hex
+    attributes: {id: CAN2_MASK0_ID}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '536870911'}
+  - type: Integer
+    attributes: {id: CAN2_MASK0_ID_DECIMAL}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '536870911'}
+  - type: Hex
+    attributes: {id: CAN2_MASK1_ID}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '536870896'}
+  - type: Integer
+    attributes: {id: CAN2_MASK1_ID_DECIMAL}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '536870896'}
+  - type: Hex
+    attributes: {id: CAN2_MASK2_ID}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '417005474'}
+  - type: Integer
+    attributes: {id: CAN2_MASK2_ID_DECIMAL}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '417005474'}
+  - type: Integer
+    attributes: {id: CAN_CORE_CLOCK_FREQ}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '99000000'}
+  - type: Comment
+    attributes: {id: CAN_ERRORRATE_COMMENT}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: text}
+        children:
+        - {type: Value, value: Warning!!! Error 100.000%}
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Float
+    attributes: {id: NOMINAL_SAMPLE_POINT}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: readOnly}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '88.888885'}
+  - type: Integer
+    attributes: {id: NUMBER_OF_ACCEPTANCE_FILTER_MASK}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1'}
+  - type: Integer
+    attributes: {id: NUMBER_OF_FIFO}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '3'}
+  - type: Integer
+    attributes: {id: NUMBER_OF_FILTER}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '2'}
+  - type: Integer
+    attributes: {id: PHASE1}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '1'}
+  - type: Integer
+    attributes: {id: PHASE2}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '1'}
+  - type: Integer
+    attributes: {id: PROPAG}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '6'}
+  - type: Integer
+    attributes: {id: PROPAG_TIME}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: readOnly}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '1333'}
+  - type: Integer
+    attributes: {id: SJW}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '1'}
+  - type: String
+    attributes: {id: TIME_QUANTA_PERIOD}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '222.222'}
+  - type: Integer
+    attributes: {id: TOTAL_TIME_QUANTA}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: can2, value: '9'}
+- type: ElementPosition
+  attributes: {x: '192', y: '63', id: can2}
